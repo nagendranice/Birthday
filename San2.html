@@ -168,7 +168,8 @@
         function startCelebration() {
             document.getElementById('birthdayMessage').style.display = 'block';
             document.getElementById('celebrationEffect').style.display = 'block';
-            window.scrollTo({ top: 150, behavior: 'smooth' });
+            window.scrollBy(0,1);
+            scrolldelay = setTimeout(pageScroll,10);
         }
     </script>
 </body>
